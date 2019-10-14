@@ -1,0 +1,11 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: inherit;
+}
+
+.animate-on-transforms {
+  /* animate list item reorder */
+  transform-origin: center top;
+  transition: transform 500ms ease-in-out;
+}
